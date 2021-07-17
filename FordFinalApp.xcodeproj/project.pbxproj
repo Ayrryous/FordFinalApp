@@ -13,6 +13,13 @@
 		24CA23AA26A3167E005E07EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24CA23A826A3167E005E07EC /* Main.storyboard */; };
 		24CA23AC26A3167E005E07EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24CA23AB26A3167E005E07EC /* Assets.xcassets */; };
 		24CA23AF26A3167E005E07EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24CA23AD26A3167E005E07EC /* LaunchScreen.storyboard */; };
+		24CA23B826A31753005E07EC /* Page2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CA23B726A31753005E07EC /* Page2ViewController.swift */; };
+		24CA23BB26A31A8B005E07EC /* Page3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CA23BA26A31A8B005E07EC /* Page3ViewController.swift */; };
+		24CA23BE26A31AC4005E07EC /* Page4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CA23BD26A31AC4005E07EC /* Page4ViewController.swift */; };
+		24CA23C226A3204D005E07EC /* Wolf 717.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 24CA23C126A3204D005E07EC /* Wolf 717.jpeg */; };
+		24CA23C726A32303005E07EC /* bb717.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 24CA23C426A32303005E07EC /* bb717.jpeg */; };
+		24CA23C826A32303005E07EC /* fb17.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 24CA23C526A32303005E07EC /* fb17.jpeg */; };
+		24CA23C926A32303005E07EC /* base17.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 24CA23C626A32303005E07EC /* base17.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,13 @@
 		24CA23AB26A3167E005E07EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24CA23AE26A3167E005E07EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		24CA23B026A3167E005E07EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24CA23B726A31753005E07EC /* Page2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page2ViewController.swift; sourceTree = "<group>"; };
+		24CA23BA26A31A8B005E07EC /* Page3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page3ViewController.swift; sourceTree = "<group>"; };
+		24CA23BD26A31AC4005E07EC /* Page4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page4ViewController.swift; sourceTree = "<group>"; };
+		24CA23C126A3204D005E07EC /* Wolf 717.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Wolf 717.jpeg"; sourceTree = "<group>"; };
+		24CA23C426A32303005E07EC /* bb717.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bb717.jpeg; sourceTree = "<group>"; };
+		24CA23C526A32303005E07EC /* fb17.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fb17.jpeg; sourceTree = "<group>"; };
+		24CA23C626A32303005E07EC /* base17.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = base17.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 		24CA23A126A3167E005E07EC /* FordFinalApp */ = {
 			isa = PBXGroup;
 			children = (
+				24CA23C026A31FDF005E07EC /* Images */,
 				24CA23A226A3167E005E07EC /* AppDelegate.swift */,
 				24CA23A426A3167E005E07EC /* SceneDelegate.swift */,
 				24CA23A626A3167E005E07EC /* ViewController.swift */,
@@ -63,8 +78,22 @@
 				24CA23AB26A3167E005E07EC /* Assets.xcassets */,
 				24CA23AD26A3167E005E07EC /* LaunchScreen.storyboard */,
 				24CA23B026A3167E005E07EC /* Info.plist */,
+				24CA23B726A31753005E07EC /* Page2ViewController.swift */,
+				24CA23BA26A31A8B005E07EC /* Page3ViewController.swift */,
+				24CA23BD26A31AC4005E07EC /* Page4ViewController.swift */,
 			);
 			path = FordFinalApp;
+			sourceTree = "<group>";
+		};
+		24CA23C026A31FDF005E07EC /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				24CA23C626A32303005E07EC /* base17.jpeg */,
+				24CA23C426A32303005E07EC /* bb717.jpeg */,
+				24CA23C526A32303005E07EC /* fb17.jpeg */,
+				24CA23C126A3204D005E07EC /* Wolf 717.jpeg */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,7 +153,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24CA23C226A3204D005E07EC /* Wolf 717.jpeg in Resources */,
+				24CA23C726A32303005E07EC /* bb717.jpeg in Resources */,
+				24CA23C926A32303005E07EC /* base17.jpeg in Resources */,
 				24CA23AF26A3167E005E07EC /* LaunchScreen.storyboard in Resources */,
+				24CA23C826A32303005E07EC /* fb17.jpeg in Resources */,
 				24CA23AC26A3167E005E07EC /* Assets.xcassets in Resources */,
 				24CA23AA26A3167E005E07EC /* Main.storyboard in Resources */,
 			);
@@ -139,6 +172,9 @@
 			files = (
 				24CA23A726A3167E005E07EC /* ViewController.swift in Sources */,
 				24CA23A326A3167E005E07EC /* AppDelegate.swift in Sources */,
+				24CA23BE26A31AC4005E07EC /* Page4ViewController.swift in Sources */,
+				24CA23B826A31753005E07EC /* Page2ViewController.swift in Sources */,
+				24CA23BB26A31A8B005E07EC /* Page3ViewController.swift in Sources */,
 				24CA23A526A3167E005E07EC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
